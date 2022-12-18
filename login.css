@@ -1,0 +1,163 @@
+.login {
+    margin-top: 2%;
+    width: 400px;
+    margin: auto;
+    border-radius: 4px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+.flex-login {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.log_text {
+    width: 100%;
+    font-weight: 1000;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 70px;
+}
+
+.login input {
+    width: 80%;
+    margin-left: 0%;
+    border: none;
+    color: silver;
+    color: rgb(15, 15, 15);
+    border-radius: 4px;
+    border: 1px solid silver;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+
+}
+
+.flex-i {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+    font-size: 25px;
+
+
+}
+
+.flex-i .blue {
+
+    color: rgb(5, 134, 255);
+}
+
+.flex-i .red {
+
+    color: red;
+}
+
+.flex-i .black {
+
+    color: black;
+}
+
+.login button {
+    padding: 10px 34px;
+    background-color: rgb(5, 134, 255);
+    background-color: rgb(5, 184, 255);
+    border-radius: 4px;
+    border: none;
+    font-size: 18px;
+    color: white;
+    width: 80%;
+
+
+}
+
+.hr-line2 {
+    border-bottom: 2px solid rgb(225, 225, 225);
+    width: 80%;
+    margin-bottom: 23px;
+    margin-top: 30px;
+}
+
+.login .button {
+    width: 100%;
+
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    color: white;
+}
+
+.login .signup {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 40px;
+    margin-top: -34px;
+    background: white;
+    padding: 2px 12px;
+}
+
+.login span {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 40px;
+    margin-top: 14px;
+    background: white;
+    padding: 2px 12px;
+}
+
+@media (max-width:600px) {
+
+    .login {
+        box-shadow: none;
+    }
+
+    .login button {
+        width: 80%;
+    }
+
+}
+
+@media (min-width:300px) and (max-width:600px) {
+
+
+    .login {
+        margin-top: 0%;
+        width: 300px;
+        box-shadow: none;
+        border-bottom: 1px solid rgb(225, 222, 222);
+        border-radius: 0px;
+    }
+
+    .login button {
+        width: 80%;
+    }
+
+
+
+
+}
+
+@media (min-width:260px) and (max-width:300px) {
+
+
+    .login {
+        width: 270px;
+        box-shadow: none;
+    }
+
+    .login button {
+        width: 70%;
+    }
+
+
+}

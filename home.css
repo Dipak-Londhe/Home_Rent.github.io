@@ -1,0 +1,88 @@
+.Home {
+    margin-top: 4%;
+    margin-left: 0px;
+    width: 100%;
+    margin-bottom: 24px;
+}
+
+.Home .Home-info {
+    width: 80%;
+    margin: auto;
+}
+
+.Home-info p {
+
+    width: 100%;
+    margin-top: 20px;
+}
+
+.Home-info h3 {
+    width: 100%;
+    margin-top: 90px;
+    margin-bottom: 94px;
+}
+
+.flex-property {
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 44px;
+}
+
+.flex-property div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+    padding: 12px 24px;
+    margin-bottom: 24px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+
+
+.flex-property div img {
+
+    width: 50%;
+    height: 50%;
+    margin-top: 20px;
+
+}
+
+.flex-property div h4 {
+    margin-top: 40px;
+    margin-bottom: -12px;
+}
+
+@media (max-width:540px) and (min-width:290px) {
+
+
+
+
+    .Home-info h3 {
+        margin-top: 50px;
+        margin-bottom: 54px;
+    }
+
+}
+
+@media (max-width:540px) and (min-width:340px) {
+
+
+    .flex-property div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 100px;
+        padding: 12px 24px;
+        margin-bottom: 24px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+
+
+}

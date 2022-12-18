@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="./cards.css">
+    <link rel="stylesheet" href="./contact.css">
+    <link rel="stylesheet" href="./feedback.css">
+    <link rel="stylesheet" href="./login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+
+    <div class='top-header'>
+        <i class="fa-solid fa-bars i icon" onclick="opensidebar();"></i>
+        <span>
+            Rent On
+        </span>
+        <a href="#login"> <button> Login here </button></a>
+    </div>
+
+
+
+    <div class="Header">
+
+        <div class="icons">
+
+            <i style="color: rgb(5, 184, 255);" class="fa-solid fa-circle-user logo"></i>
+            <span>dipak londhe</span>
+            <i class="fa-solid fa-xmark i cross" onclick=" closesidebar();"></i>
+            <div class="hr-line"></div>
+        </div>
+
+        <div class='flex'>
+
+            <div class="sidebar">
+                <div>
+                    <div class="dd">
+                        <i class="fa-solid fa-house"></i>
+                        <a href="#Home" onclick="closesidebar();">Home</a>
+                    </div>
+                </div>
+
+
+
+                <div>
+                    <div class="dd">
+                        <i class="fa-solid fa-building-user"></i>
+                        <a href="#House" onclick="closesidebar();">Houses</a>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="dd">
+                        <i class="fa-solid fa-right-to-bracket"></i>
+                        <a href="#login" onclick="closesidebar();">Login</a>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="dd">
+
+                        <i class="fa-solid fa-address-book"></i>
+                        <a href="#contact" onclick="closesidebar();">Contact</a>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="dd">
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="#Help" onclick="closesidebar();">Help</a>
+                    </div>
+                </div>
+
+
+                <div>
+                    <div class="log-out">
+
+                        <i class="fa-solid fa-right-to-bracket"></i>
+                        <a href="#Home" onclick="closesidebar();">Log out</a>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="side">
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <div class="main-body">
+
+        <div class="Home" id="Home">
+            <div class="Home-info">
+
+                <p>
+                    <b> Welcom ! . we have variety of homes for slae or rent . we also have flats , apartments
+                        buildings , row houses . we provide the communication with the owner through our website
+                        we have variety of homes with different looks . we provide the images of the homes .
+                    </b>
+                </p>
+                <h3 style="color:orange"> Our Feautured property </h3>
+
+            </div>
+
+            <div class="flex-property">
+                <div>
+                    <img src="images/h1.png" alt="">
+                    <h4>House</h4>
+                    <h5 style="color:silver"> 400 Property </h5>
+                </div>
+
+                <div>
+                    <img src="images/h2.png" alt="">
+                    <h4>Aparatment</h4>
+                    <h5 style="color:silver"> 400 Property </h5>
+                </div>
+                <div>
+                    <img src="images/h3.png" alt="">
+                    <h4>Office</h4>
+                    <h5 style="color:silver"> 400 Property </h5>
+                </div>
+                <div>
+                    <img src="images/h4.png" alt="">
+                    <h4>Building</h4>
+                    <h5 style="color:silver"> 400 Property </h45>
+                </div>
+                <div>
+                    <img src="images/h6.png" alt="">
+                    <h4>Row-House</h4>
+                    <h5 style="color:silver"> 400 Property </h5>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="Card-info" id="House">
+
+            <p> <b>
+
+                    Some of the homes with better design is given below . we display the images , price , address .
+                    you can review it . you will see the photos and the price with location .
+                </b>
+            </p>
+
+            <h3 style="color:orange"> Recent property Listed </h3>
+        </div>
+
+        <div class='container'>
+            <div class='Card'>
+
+                <img src="images/p-1.png" alt="ff">
+
+                </img>
+
+                <div class='info ddipak'>
+                    for sell
+                </div>
+
+                <div class='location'>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span> panchavati Nashik </span>
+                </div>
+
+
+
+                <p>
+                    2 rooms with balcony . clean kichen room with floor inside it
+                </p>
+
+                <button>
+                    See more
+                </button>
+
+
+            </div>
+
+
+
+            <div class='Card'>
+
+                <img src="images/p-5.png" alt="ff">
+
+                </img>
+
+                <div class='info'>
+                    for rent
+                </div>
+
+                <div class='location'>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span> panchavati Nashik </span>
+                </div>
+
+
+                <p>
+                    2 rooms with balcony . clean kichen room with floor inside it
+                </p>
+
+                <button>
+                    See more
+                </button>
+
+
+            </div>
+
+
+
+            <div class='Card'>
+
+                <img src="images/p-7.png" alt="ff">
+
+                </img>
+
+                <div class='info'>
+                    for rent
+                </div>
+
+                <div class='location'>
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span> panchavati Nashik , Maharashtra . </span>
+                </div>
+
+                <p>
+                    2 rooms with balcony . clean kichen room with floor inside it
+                </p>
+
+                <button>
+                    See more
+                </button>
+
+
+            </div>
+
+
+
+        </div>
+
+
+        <div class="login" id="login">
+
+            <div class="flex-login">
+
+                <div class="log_text">Log in</div>
+                <span>Dont have an account ?<b style="color:orange"> Gets started</b></span>
+
+
+                <input type="text" name="admin_name" placeholder="  user name" required>
+                <input type="password" name="admin_password" placeholder="  password" required>
+
+                <div class="button">
+
+                    <button>log in</button>
+                </div>
+                <div class="hr-line2"></div>
+                <div class="signup">or continue with</div>
+                <div class="flex-i">
+                    <i class="fa-brands fa-youtube red"></i>
+                    <i class="fa-brands fa-github black"></i>
+                    <i class="fa-brands fa-facebook blue"></i>
+                </div>
+            </div>
+
+        </div>
+
+
+
+        <div class="form_admin_inputs" id="Help">
+            <h3>
+                Enter your Query ....
+            </h3>
+
+            <form>
+                <div><input type="text" class="inputd" placeholder="  Enter Name "></input></div>
+                <div class="ingputd"><input type="text" placeholder="  Enter Topic "></input></div>
+                <div>
+                    <textarea name="message" id="" cols="85" rows="4" maxLength="400">
+
+        </textarea>
+                </div>
+                <div><button type="submit">Submit</button></div>
+            </form>
+        </div>
+
+        <div id="contact">
+
+            <div class="div1">
+                <h2>
+                    Home Rent
+                </h2>
+                <p>
+                    thanks for visiting us . contact us if you have any query. we will 24 hr for you .
+                    you can send feedback , visit once you we will better fill
+                </p>
+            </div>
+            <div class="div2">
+
+
+                <div>
+                    <h3>
+                        Mobile No
+                    </h3>
+
+                    <i class="fa-solid fa-phone ii"></i>
+
+                    <ul>
+                        <li class="li">
+                            4556 - 546546
+                        </li>
+
+                        <li>
+                            4556 - 546546
+                        </li>
+                    </ul>
+
+
+
+
+                </div>
+                <div>
+                    <h3>
+                        Address
+                    </h3>
+
+                    <i class="fa-solid fa-location-dot locationd"></i>
+
+                    <p>
+
+                        Panchavati , Nashik , Maharashtra .
+                        422 103
+                    </p>
+                </div>
+                <div>
+
+                    <h3>
+                        Mail
+                    </h3>
+
+                    <i class="fa-solid fa-paper-plane ii"></i>
+
+                    <ul>
+                        <li class="li">
+                            sdf@hmame.com
+                        </li>
+
+                        <li>
+                            sdf@hmamerge.com
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="youtubeddd">
+                        You Tube
+                    </h3>
+
+                    <i class="fa-brands fa-youtube youtubed ii"></i>
+
+                    <p class="youtubedd">
+                        youtube.com
+                    </p>
+                </div>
+
+            </div>
+
+            <h4>copyright@dipak</h4>
+
+        </div>
+
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

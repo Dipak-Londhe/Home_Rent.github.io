@@ -1,0 +1,138 @@
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 84px;
+}
+
+#contact .div1 {
+    background-color: black;
+    background-color: rgb(252, 251, 251);
+}
+
+
+#contact .div2 {
+    background-color: black;
+    background-color: rgb(252, 251, 251);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 2px solid rgb(99, 99, 99);
+    border-top: 2px solid rgb(255, 255, 255);
+}
+
+.div2 div {
+    height: 33vh;
+    width: 20%;
+    margin-bottom: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.div2 div p {
+    text-align: center;
+}
+
+#contact div i {
+    font-size: 37px;
+    border-radius: 38px;
+    border: none
+}
+
+
+#contact div .youtubeddd {
+    margin-top: 0px;
+}
+
+#contact div .youtubedd {
+    margin-top: -60px;
+}
+
+#contact div .youtubed {
+
+    margin-top: -44px;
+    margin-bottom: 37px;
+
+}
+
+#contact .ii {
+    scale: 0.7;
+}
+
+
+#contact div .locationd {
+
+    scale: 0.8;
+    margin-bottom: 13px;
+}
+
+
+#contact>h4 {
+
+    background-color: black;
+    background-color: rgb(252, 251, 251);
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0px;
+    font-weight: 800;
+    letter-spacing: 4px;
+    padding-bottom: 4px;
+}
+
+#contact ul .li {
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+#contact i:hover {
+    background-color: black;
+    background-color: rgb(252, 251, 251);
+}
+
+@media (max-width:430px) and (min-width:260px) {
+
+    #contact,
+    #contact .div1,
+    #contact .div2,
+    #contact h4 {
+        overflow: hidden;
+        width: 100vw;
+        font-size: 15px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    #contact .div1 {
+        padding: 0;
+        margin-left: 0;
+    }
+
+
+    .div2 div {
+        width: 50vw;
+        padding: 0;
+        margin-left: 0;
+    }
+
+    #contact i:hover {
+        background-color: black;
+        background-color: rgb(252, 251, 251);
+    }
+
+    #contact>h4,
+    #contact>.div2 {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    #contact div i {
+        padding: 0;
+        border: none;
+    }
+
+}
